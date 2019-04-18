@@ -16,9 +16,18 @@ public class Clase23 {
         
         int valor1 = 10;
         String cadena = "10.293";
+        String edad= "20";
+        
+        double variable3 =(double)(valor1);
         
         System.out.printf("%.2f\n", (double)(valor1));
+         double variable4= Double.parseDouble(cadena);
+        
         System.out.printf("%.2f\n", Double.parseDouble(cadena));
+        
+      int miEdad = Integer.parseInt(edad);
+      System.out.printf("%s\n",miEdad);
+        
     }
     
 }

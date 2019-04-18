@@ -20,16 +20,16 @@ public class Clase21 {
         bandera = valor1 < valor2;
         
         System.out.printf("%s\n", bandera);
-        
-        bandera = (valor1 < valor2) & (valor1 > valor2); // Producto lógico – \AND (binario)
-        
-        System.out.printf("%s\n", bandera);
-        
-        bandera = (valor1 < valor2) | (valor1 > valor2);
+        //resultado de bandera aplicando AND 
+        bandera = (valor1 < valor2) & (valor1 > valor2); // Producto lógico – \AND (binario) V & F= F
         
         System.out.printf("%s\n", bandera);
         
-        bandera = !((valor1 < valor2) | (valor1 > valor2)); // Negación - NOT (unario)
+        bandera = (valor1 < valor2) | (valor1 > valor2); // comparación con OR V o F= v
+        
+        System.out.printf("%s\n", bandera);
+        
+        bandera = !((valor1 < valor2) | (valor1 > valor2)); // Negación Y OR  Si el resultado es verdadero es falso- NOT (unario) 
         
         System.out.printf("%s\n", bandera);
     }

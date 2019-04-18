@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete1;
+package paquetedatos;
 
 /**
  *
- * @author reroes
+ * @author Usuario
  */
-public class Clase1 {
-    //Propiedades desde otro paquete acceder a las propiedades
-    public static int tabla = 10;
-    public static int maximo = 12;
+public class Variable2 {
     
+    public static double numero3 = 20;
     
 }

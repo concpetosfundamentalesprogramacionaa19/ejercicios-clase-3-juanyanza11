@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package paqueteprincipal;
-import paquete1.*;
+import paquete1.*; 
 /**
  *
  * @author reroes

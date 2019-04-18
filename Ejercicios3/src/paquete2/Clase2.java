@@ -17,9 +17,10 @@ public class Clase2 {
          */
         int valor1 = 2;
         double valor2 = 10.2;
-
-        // int valor3 = valor1 / valor2;
+/*
+        int valor3 = valor1 / valor2;
         double valor3 = valor1 / valor2;
         System.out.printf("Valor resultante: %.2f\n", valor3);
+*/
     }
 }
