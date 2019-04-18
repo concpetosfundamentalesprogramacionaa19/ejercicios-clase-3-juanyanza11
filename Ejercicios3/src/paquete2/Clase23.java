@@ -7,7 +7,7 @@ package paquete2;
 
 /**
  *
- * @author reroes
+ * @author reroes       
  */
 public class Clase23 {
     
